@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  exp_name: MyString
+  exp_type: MyString
+  monthly_min: 1
+  monthly_max: 1
+
+two:
+  exp_name: MyString
+  exp_type: MyString
+  monthly_min: 1
+  monthly_max: 1

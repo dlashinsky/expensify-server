@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nick_name: MyString
+  bank_name: MyString
+  current_bal: 1
+  mi: MyString
+
+two:
+  nick_name: MyString
+  bank_name: MyString
+  current_bal: 1
+  mi: MyString

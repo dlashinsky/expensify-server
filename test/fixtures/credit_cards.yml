@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nick_name: MyString
+  bank_name: MyString
+  current_bal: 1
+  min_payment: 1
+  actual_payment: 1
+  last_four_card: 1
+  payment_day: 1
+
+two:
+  nick_name: MyString
+  bank_name: MyString
+  current_bal: 1
+  min_payment: 1
+  actual_payment: 1
+  last_four_card: 1
+  payment_day: 1

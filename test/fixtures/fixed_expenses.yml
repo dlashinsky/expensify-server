@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  exp_name: MyString
+  exp_type: MyString
+  exp_amount: 1
+  payment_day: MyString
+
+two:
+  exp_name: MyString
+  exp_type: MyString
+  exp_amount: 1
+  payment_day: MyString
