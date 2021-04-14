@@ -6,10 +6,11 @@ Rails.application.routes.draw do
     namespace :v1 do
       resources :users
       post "login", to: "authentication#login"
-      resources :credit_cards
-      resources :fixed_expenses
-      resources :non_fixed_expenses
+      resources :creditcards
+      resources :fixedexpenses
+      resources :nonfixedexpenses
       resources :loans
+      resources :dave
     end
   end
 

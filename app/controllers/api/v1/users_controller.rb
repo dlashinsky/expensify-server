@@ -12,9 +12,7 @@ module Api
                 )
                 render json: user
             end
-        
         end
-
     end
 end
 
