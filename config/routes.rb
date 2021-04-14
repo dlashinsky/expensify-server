@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :users
+      post "login", to: "authentication#login"
       resources :credit_cards
       resources :fixed_expenses
       resources :non_fixed_expenses
