@@ -1,4 +1,8 @@
 class ApplicationController < ActionController::Base
+    def index
+        render json: { message: "Welcome to the homepage" }
+    end
+    
     def authenticate
         authorization_header = request.headers[:authorization]
 
