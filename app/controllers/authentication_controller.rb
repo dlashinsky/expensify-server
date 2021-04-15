@@ -7,7 +7,7 @@ module Api
                 user = User.find_by(email: params[:email])
 
                 if !user
-                    render json: { message: "incorrect crudentials"}
+                    render json: { message: "incorrect login crudentials, try again" }
 
                 else
                    
@@ -22,18 +22,10 @@ module Api
 
                         render json: { token: token }
                     else
-                        render json: { message: "incorrect crudentials"}
+                        render json: { message: "incorrect login crudentials, try again" }
                     end
 
                 end
-
-
-                # elsif !user
-                #     render json: { message: "invalid username and password" }
-                # else
-                #     render json: { message: "Invalid password" }
-                # end
-                
             end
         end
     end
