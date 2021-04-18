@@ -69,7 +69,7 @@ module Api
                         user_id: @user.id
                         )
                 
-                redirect_to(:action => 'show')
+                    render json: CreditCardSerializer.new(creditcard).serialized_json
             end
 
 
