@@ -48,7 +48,7 @@ module Api
                         render json: { message: "Could not locate and/or delete card." }, status: 400
                     else
                         if credit_card.destroy
-                            redirect_to(:action => 'index')
+                            render json: CreditCardSerializer.new(credit_card).serialized_json
                         else
                             render json: { message: "Located Card, but something else went wrong. Sorry, try logging out and in/refresh, try again." }, status: 400
                         end
