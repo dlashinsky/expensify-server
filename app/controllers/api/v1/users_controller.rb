@@ -25,6 +25,14 @@ module Api
                     render json: { message: "This email already exists!"}
                 end
             end
+
+            def show
+                
+                user = User.find_by(id: params[:id])
+
+                render json: UserSerializer.new(user).serialized_json
+            end
+
         end
     end
 end
