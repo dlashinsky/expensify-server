@@ -8,7 +8,7 @@ Rails.application.routes.draw do
       post "login", to: "authentication#login"
       resources :creditcards
       resources :fixedexpenses
-      resources :nonfixedexpenses
+      resources :variableexpenses
       resources :loans
       resources :dave
     end
